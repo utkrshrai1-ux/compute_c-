@@ -1,12 +1,15 @@
  #include <bits/stdc++.h>
+
 using namespace std;
+
 int main()
 {
+    int num = 65;
 
-int a,b,c,d,e;
-cin>>a>>b>>c>>d;
-e=a+b+c+d;
-cout<<e;
+    // Convert integer to character
+    char ch = (char)num;
 
-return 0;
+    cout << ch;
+
+    return 0;
 }
