@@ -1,15 +1,15 @@
- #include <bits/stdc++.h>
-
+#include<bits/stdc++.h>
 using namespace std;
-
 int main()
 {
-    int num = 65;
-
-    // Convert integer to character
-    char ch = (char)num;
-
-    cout << ch;
-
-    return 0;
+int count=0;
+float h;
+cin>>h;
+int j=h;
+for(int i=1;h>=1;i++)
+{
+    h=h/10;
+    count++;
+}
+cout<<count;
 }
